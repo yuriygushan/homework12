@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	background-color: #141b23;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 890px;
+}
+
+.nav {
+	display: inline-block;
+	padding-top: 50px;
+	float: left;
+}
+
+.logo {
+	padding-top: 40px;
+	float: right;
+}
+
+.navigation-list {
+	margin-left: 55px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffff78;
+}
+.navigation-list:nth-child(1) {
+	margin-left: 0;
+}
+
+.main {
+ padding-top: 125px;
+}
+.title-images{
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+}
+.title-text {
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+	max-width: 890px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #cfcfcf;
+}
+.about {
+	padding-top: 60px;
+
+}
+
+.headline {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+	text-align: center;
+    font-size: 30px;
+    color: #ffff78;
+}
+
+.about-table {
+	display: block;
+	overflow: hidden;
+    margin: 0 auto;
+    max-width: 890px;
+}
+.block {
+	display: block;
+	margin-right: 10px;
+	float: left;
+
+}
+.block:nth-child(3) {
+	margin-right: 0;
+
+}
+.about-list {
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+	max-width: 890px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #cfcfcf;
+}
+
+.list-description {
+	padding-left: 24px;
+	margin-top: 24px;
+}
+.slider {
+	padding-top: 60px;
+}
+.images {
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+	background-color: #8e9195;
+	max-width: 890px;
+	height: 250px;
+	position: relative;
+
+	
+}
+.left {
+	display: block;
+	border: 0;
+	padding-left: 20px;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.right {
+	display: block;
+	border: 0;
+	padding-right: 20px;
+    background: none;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);   
+}
+.footer {
+	display: block;
+	margin-right: auto;
+    margin-left: auto;
+	padding-top: 190px;
+	padding-bottom: 50px;
+	max-width: 890px;
+	
+}
+.footer-text {
+	margin: 0;
+	font-size: 14px;
+	color: #ffff78;
+	float: right;		
+}
